@@ -18,7 +18,7 @@ namespace LAB2
         {
             InitializeComponent();
         }
-        string connectionStrings = "Server=localhost;Database=STUDENT_MANAGEMENT;User Id = sa; password=123456";
+        string connectionStrings = "database=STUDENT_MANAGEMENT;Server=DESKTOP-D0QGKOB\\SQLEXPRESS;User id=sa; password=123456";
         SqlDataAdapter adapter = null;
         DataSet ds = null;
 
